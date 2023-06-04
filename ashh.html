@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Abhishek Protofolio </title>
+    <link rel="stylesheet" href="ashh.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Pacifico&family=Unbounded:wght@300;400&display=swap" rel="stylesheet">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+  
+  <!-- navbar -->
+  <nav class="navbar bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand"> ABHISHEK </a>
+    <form class="d-flex" role="search">     <div class="d-grid gap-2 d-sm-flex justify-content-sm-end">
+        <button class="btn btn-primary me-sm-2" type="button" id="dark">light</button>
+  <button class="btn btn-primary" type="button" id="light">dark</button>
+</div>
+         </form>
+  </div>
+</nav>
+ 
+ <div class="container">
+ <div id="carouselExampleDark" class="carousel carousel-dark slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active my-7" data-bs-interval="10000">
+      <img src="first1.jpg" class="d-block w-100" alt="Ashh">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="text-light">Hii.. I Am Abhishek .....</h5>
+        <p class="text-light">And I Create A responsive Website By Using Bootstrap....</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="sec2.jpg" class="d-block w-100 my-7" alt="Ashh">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="text-light"> I Use This Slider Form Bootstrap-5...</h5>
+        <p class="text-light"> Some Pic Of Mine ...... Have A Nice Day </p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="t3.jpg" class="d-block w-100 my-7" alt="Ashh">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="text-light">Hope You Like This </h5>
+        <p class="text-light"> Thanks For Visiting My Site </p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+ </div>
+ 
+ 
+ <!-- loading -->
+ 
+ 
+  <div class="d-flex justify-content-center" id="load">
+  <div class="spinner-border" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+</div>
+
+
+<!-- about me  -->
+
+  <div class="container my-3" id="about">
+     <h1 class="text"> About Me ( Abhishek )</h1>
+      <p class="text"> Hii.. I Am <strong class="text">Abhishek</strong>.And i study in DAVIET Jal. In B.Tech ( ECE ) 2021 Batch. I Know About HTML And Css And Javascript. And I Also Little Bit Know About <a href="https://reactjs.org/">React.Js </a>.How Props Work {Useffect,usestate}.Thats l About Me<strong class="text"> Thanks You </strong></p>
+  </div>
+  
+  
+  <!-- section contact me  --> 
+  <div class="container mx-auto justify-content-center align-items-center ">
+     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"> Email </button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"> Whatapp Me </button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact Me </button>
+  </li>
+</ul>
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0"> xabhishekheer08@gmail.com</div>
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0"> For <strong>Whatapp </strong> My Number Is <strong> 9897412970</strong></div>
+  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0"> For Call My Personal Number Is Please Never Share My Number To anyone <strong> 9839579270</strong></div>
+  </div> 
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="ashh.js"></script>
+</html>

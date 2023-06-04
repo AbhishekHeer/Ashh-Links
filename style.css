@@ -1,0 +1,40 @@
+body{
+    background-color: cyan;
+    color: black;
+}
+#f1{
+    height: 12vh;
+    width: 10vw;
+}
+#i1{
+    height: 5vh;
+    width: 10vw;
+    margin: 4vh auto;
+    padding: 0;
+}
+#i2{
+    height: 5vh;
+    width: 10vw;
+    margin: 4vh auto;
+    padding: 0;
+}
+#i3{
+    height: 5vh;
+    width: 10vw;
+    margin: 4vh auto;
+    padding: 0;
+}
+#i4{
+    height: 5vh;
+    width: 10vw;
+    margin: 4vh auto;
+    padding: 0;
+}
+
+
+.bb{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
